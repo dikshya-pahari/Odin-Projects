@@ -1,3 +1,3 @@
 # Basic Recipe Project 
 
-#This project is for HTML tutorial from odin project.
+# This project is for HTML tutorial from Odin project.
