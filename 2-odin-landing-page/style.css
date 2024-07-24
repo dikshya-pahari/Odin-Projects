@@ -103,19 +103,24 @@ nav {
 }
 /* section 2 */
 .h2 {
-    font-size: 36px;
+    padding: 20px;
+    font-size: 20px;
     font-weight: bolder;
-    color: #1f2937
+    color: #1f2937;
+    text-align: center;
 }
 .boxes {
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 .squares {
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     border: 5px solid blue;
     border-radius: 10px;
+    margin: 20px;
 }
