@@ -124,3 +124,45 @@ nav {
     border-radius: 10px;
     margin: 20px;
 }
+.section3 {
+    background-color: #e5e7eb;
+    padding: 50px;    
+    display: flex;
+    flex-direction: column;
+
+}
+.quote{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937
+}
+.author {
+    margin-right: 270px;
+    color: #1f2937;
+    font-weight: bold;
+    align-self: flex-end;   
+}
+.section4 {
+    padding: 55px 88px;
+}
+.call-action {
+    background-color: #3883f6;
+    border-radius: 4px;
+    color: #f9faf8;
+    display: flex;
+    padding: 33px;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.call-action-button {
+    background-color: #3883f6;
+    color: white;
+    margin-right: 250px;
+    justify-content: left;
+    border-radius: 10px;
+    border: 2x solid white;
+    padding: 5px;
+}
