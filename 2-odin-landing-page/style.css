@@ -1,0 +1,103 @@
+/* GENERAL STYLING */
+/* Importing font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Targeting the whole page */
+*{
+    margin: 0;
+    padding: 5;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.Header {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    flex-direction: column;
+}
+.HeaderTop {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    color: white;
+}
+
+/* Transition styling for links and button */
+a, .btn {
+    transition: all 300ms ease;
+
+}
+.headerbody{
+    display: flex;
+    margin: 2px;
+    justify-content: space-around;
+    margin-left: 102px;
+    margin-right: 100px;
+}
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    max-width: 444px;
+}
+.subtitle {
+    font-size: 24px;
+    max-width: 444px;
+    color: #e5e7eb;
+    padding: 5px;
+
+    
+}
+
+.hbleft {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 40px  ;
+
+}
+.hbright {
+    max-height: 200px;
+    padding-bottom: 20px;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+button {
+    background-color: #3883f6;
+    color: white;
+    margin-right: 250px;
+    justify-content: left;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+/* DESKTOP NAV */
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none; /* removes bullet points */
+    font-size: 1.2rem;
+
+}
